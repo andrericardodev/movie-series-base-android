@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MovieSeries Base"
 include(":app")
+include(":core")
