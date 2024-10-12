@@ -21,6 +21,17 @@ Este projeto adota três principais abordagens arquiteturais para garantir quali
 - **Detekt** para análise estática de código.
 - ...
 
+### Módulos
+O projeto está dividido nos módulos **app** e **core**
+
+- **:app** - módulo padrão, contém os componentes do framework do Android.
+- **:core** - contém regras de negócio, casos de uso e repositórios (nada relacionado com o framework Android)
+
+```css
+movieseriesbase/
+├── app/
+├── core/
+```
 
 ## Licença
 Este projeto está licenciado sob a [MIT License](LICENSE).
