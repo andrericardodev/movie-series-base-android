@@ -24,8 +24,8 @@ Este projeto adota três principais abordagens arquiteturais para garantir quali
 ### Módulos
 O projeto está dividido nos módulos **app** e **core**
 
-- **:app** - módulo padrão, contém os componentes do framework do Android.
-- **:core** - contém regras de negócio, casos de uso e repositórios (nada relacionado com o framework Android)
+- **:app** - módulo padrão, contém os componentes do framework do Android, camada mais externa.
+- **:core** - contém regras de negócio, casos de uso e repositórios (nada relacionado com o framework Android), camada mais interna.
 
 ```css
 movieseriesbase/
