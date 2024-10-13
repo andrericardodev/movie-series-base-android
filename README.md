@@ -33,5 +33,22 @@ movieseriesbase/
 ├── core/
 ```
 
+
+## Orientações
+
+### Análise estática de código e formatação
+
+No projeto, o *Detekt* está configurado para realizar análise estática de código, ajudando a identificar potenciais problemas de qualidade e estilo no código Kotlin. Para garantir a consistência e evitar falhas de qualidade, **execute a análise antes de realizar um commit ou push**.
+
+- **Mac/Linux**: Execute o comando `./gradlew detekt`
+- **Windows**: Execute o comando `gradlew detekt`
+
+Além disso, é altamente recomendado instalar o plugin do **Ktlint** na IDE Android Studio para garantir a formatação correta do código automaticamente. O Ktlint auxilia na padronização de estilo, evitando problemas de formatação que possam interferir na qualidade do código.
+
+Seguir essas práticas ajuda a manter o código alinhado com os padrões definidos e evita retrabalho desnecessário.
+
+
+
+
 ## Licença
 Este projeto está licenciado sob a [MIT License](LICENSE).
