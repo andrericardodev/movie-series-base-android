@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MovieSeries Base</string>
+
+    <!-- Menu - BottomNavigation -->
+    <string name="app_menu_home">Home</string>
+    <string name="app_menu_search">Search</string>
+    <string name="app_menu_favorites">Favorites</string>
+    <string name="app_menu_profile">Profile</string>
+
 </resources>
