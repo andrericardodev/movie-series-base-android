@@ -33,6 +33,8 @@ movieseriesbase/
 ├── core/
 ```
 
+### Dependências
+**- Navegação:** Navigation do Android Jetpack, *versão 2.8.2* - https://developer.android.com/guide/navigation
 
 ## Orientações
 
