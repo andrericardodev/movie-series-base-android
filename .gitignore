@@ -8,6 +8,9 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 /.idea/ktlint-plugin.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/codeStyles
 .DS_Store
 /build
 /captures
