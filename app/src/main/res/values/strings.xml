@@ -7,4 +7,10 @@
     <string name="app_menu_favorites">Favorites</string>
     <string name="app_menu_profile">Profile</string>
 
+    <!-- Title screens -->
+    <string name="title_screen_home">Movie &amp; Series Base</string>
+    <string name="title_screen_search">Search</string>
+    <string name="title_screen_favorites">Favorites</string>
+    <string name="title_screen_profile">Profile</string>
+
 </resources>

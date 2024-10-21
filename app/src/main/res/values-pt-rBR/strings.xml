@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MovieSeries Base</string>
+
+    <!-- Menu - BottomNavigation -->
     <string name="app_menu_home">Início</string>
     <string name="app_menu_search">Buscar</string>
     <string name="app_menu_favorites">Favoritos</string>
     <string name="app_menu_profile">Perfil</string>
+
+    <!-- Title screens -->
+    <string name="title_screen_home">Movie &amp; Series Base</string>
+    <string name="title_screen_search">Buscar</string>
+    <string name="title_screen_favorites">Favoritos</string>
+    <string name="title_screen_profile">Perfil</string>
 </resources>
