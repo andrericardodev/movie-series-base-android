@@ -34,8 +34,8 @@ movieseriesbase/
 ```
 
 ### Dependências
-**- Navegação:** Navigation do Android Jetpack, *versão 2.8.2* - https://developer.android.com/guide/navigation
-**- Injeção de Dependência:** Dagger Hilt, *versão 2.44* - https://developer.android.com/training/dependency-injection
+- **Navegação:** Navigation do Android Jetpack, *versão 2.8.2* - https://developer.android.com/guide/navigation
+- **Injeção de Dependência:** Dagger Hilt, *versão 2.44* - https://developer.android.com/training/dependency-injection
 
 ## Orientações
 
