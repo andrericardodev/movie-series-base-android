@@ -53,9 +53,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    // Navigation
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
 
+    // Dagger Hilt (DI)
     implementation(libs.dagger.hilt.android)
     kapt(libs.dagger.hilt.compiler)
 
