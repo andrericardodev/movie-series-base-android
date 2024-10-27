@@ -1,5 +1,13 @@
 # MovieSeries Base
-Repositório com informações de filmes e séries para dispositivos móveis **Android**.
+Repositório com informações de filmes e séries para dispositivos móveis **Android**, utilizando a API do site [TMDB](https://www.themoviedb.org/settings/api)
+
+## Orientações para rodar o projeto
+Criar conta no site [TMDB](https://www.themoviedb.org/settings/api) para ter uma chave de API.
+
+Na raiz do projeto criar o arquivo `apikey.properties` e configurar com a sua chave de API conforme modelo abaixo
+```properties
+PUBLIC_KEY="XXXXXXXXXXX"
+```
 
 ## Informações técnicas
 
