@@ -4,7 +4,7 @@ import java.util.Properties
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.dagger.hilt.android)
+    alias(libs.plugins.hilt.android)
     kotlin("kapt")
 }
 
@@ -49,7 +49,6 @@ android {
         buildConfig = true
         viewBinding = true
     }
-
 }
 
 java {
@@ -72,8 +71,8 @@ dependencies {
     implementation(libs.androidx.navigation.ui)
 
     // Dagger Hilt (DI)
-    implementation(libs.dagger.hilt.android)
-    kapt(libs.dagger.hilt.compiler)
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
 
     // Tests
     testImplementation(libs.junit)
