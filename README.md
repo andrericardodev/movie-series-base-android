@@ -27,6 +27,7 @@ Este projeto adota três principais abordagens arquiteturais para garantir quali
 - **Gson** para converter uma classe de dados em string JSON e vice-versa.
 - **Coroutines** para operações assíncronas.
 - **Dagger Hilt** para injeção de dependências.
+- **OkHttp** para fornece um cliente HTTP com suporte para interceptores, cache e gestão de conexões.
 - **Detekt** para identificar e corrigir problemas de qualidade e consistência de código.
 - ...
 
@@ -43,10 +44,11 @@ movieseriesbase/
 ```
 
 ### Dependências
-- **Navegação:** Navigation do Android Jetpack, *versão 2.8.2* - https://developer.android.com/guide/navigation
-- **Injeção de Dependência:** Dagger Hilt, *versão 2.44* - https://developer.android.com/training/dependency-injection
+- **Navegação:** Navigation do Android Jetpack, *versão 2.8.3* - https://developer.android.com/guide/navigation
+- **Injeção de Dependência:** Dagger Hilt, *versão 2.45* - https://developer.android.com/training/dependency-injection
 - **Cliente de Rede:** Retrofit, *versão 2.11.0* - https://square.github.io/retrofit/
 - **Serialização de JSON:** Gson, *versão 2.11.0* - https://github.com/google/gson
+- **Cliente HTTP:** OkHttp, *versão 4.12.0* - https://square.github.io/okhttp/
 - **Análise Estática de Código** Detekt, *versão 1.23.7*. https://detekt.dev/docs/intro
 
 
