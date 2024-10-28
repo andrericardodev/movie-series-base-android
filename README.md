@@ -23,10 +23,11 @@ Este projeto adota três principais abordagens arquiteturais para garantir quali
 ### Tecnologias Utilizadas
 - **Kotlin** para desenvolvimento nativo Android.
 - **Android Jetpack** para gerenciamento de ciclo de vida e UI.
-- **Retrofit** para consumo de APIs.
+- **Retrofit** para consumo de APIs RESTful, facilita as requisições HTTP.
+- **Gson** para converter uma classe de dados em string JSON e vice-versa.
 - **Coroutines** para operações assíncronas.
-- **Dagger** para injeção de dependências.
-- **Detekt** para análise estática de código.
+- **Dagger Hilt** para injeção de dependências.
+- **Detekt** para identificar e corrigir problemas de qualidade e consistência de código.
 - ...
 
 ### Módulos
@@ -44,8 +45,12 @@ movieseriesbase/
 ### Dependências
 - **Navegação:** Navigation do Android Jetpack, *versão 2.8.2* - https://developer.android.com/guide/navigation
 - **Injeção de Dependência:** Dagger Hilt, *versão 2.44* - https://developer.android.com/training/dependency-injection
+- **Cliente de Rede:** Retrofit, *versão 2.11.0* - https://square.github.io/retrofit/
+- **Serialização de JSON:** Gson, *versão 2.11.0* - https://github.com/google/gson
+- **Análise Estática de Código** Detekt, *versão 1.23.7*. https://detekt.dev/docs/intro
 
-## Orientações
+
+## Orientações para contribuição
 
 ### Análise estática de código e formatação
 
