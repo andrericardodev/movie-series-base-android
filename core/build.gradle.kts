@@ -9,10 +9,15 @@ java {
 }
 
 dependencies {
+    // OkHttp
+    api(platform(libs.okhttp.bom))
+    api(libs.okhttp)
+    api(libs.okhttp.logging.interceptor)
+
     // Retrofit
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.converter.gson)
+    api(libs.retrofit)
+    api(libs.retrofit.converter.gson)
 
     // Gson
-    implementation(libs.gson)
+    api(libs.gson)
 }
