@@ -14,7 +14,7 @@ apikeyProperties.load(FileInputStream(apikeyPropertiesFile))
 
 android {
     namespace = "dev.andrericardo.movieseriesbase"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "dev.andrericardo.movieseriesbase"
