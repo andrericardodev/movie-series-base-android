@@ -5,7 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.QueryMap
 
 interface TmdbApi {
-    @GET("/movie/popular")
+    @GET("movie/popular")
     suspend fun getMovieListPopular(
         @QueryMap
         queries: Map<String, String>,
