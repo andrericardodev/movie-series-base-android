@@ -6,7 +6,7 @@ Criar conta no site [TMDB](https://www.themoviedb.org/settings/api) para ter uma
 
 Na raiz do projeto criar o arquivo `apikey.properties` e configurar com a sua chave de API conforme modelo abaixo
 ```properties
-PUBLIC_KEY="XXXXXXXXXXX"
+API_KEY="XXXXXXXXXXX"
 ```
 
 ## Informações técnicas
