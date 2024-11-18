@@ -1,6 +1,6 @@
-package dev.andrericardo.core.data.network
+package dev.andrericardo.movieseriesbase.framework.network
 
-import dev.andrericardo.core.data.network.response.MovieListPopularResponse
+import dev.andrericardo.movieseriesbase.framework.network.response.MovieListPopularResponse
 import retrofit2.http.GET
 import retrofit2.http.QueryMap
 

@@ -4,7 +4,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import dev.andrericardo.core.data.network.interceptor.AuthorizationInterceptor
+import dev.andrericardo.movieseriesbase.framework.network.interceptor.AuthorizationInterceptor
 import dev.andrericardo.movieseriesbase.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

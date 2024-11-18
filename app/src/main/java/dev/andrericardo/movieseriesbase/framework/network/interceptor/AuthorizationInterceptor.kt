@@ -1,4 +1,4 @@
-package dev.andrericardo.core.data.network.interceptor
+package dev.andrericardo.movieseriesbase.framework.network.interceptor
 
 import okhttp3.Interceptor
 import okhttp3.Response

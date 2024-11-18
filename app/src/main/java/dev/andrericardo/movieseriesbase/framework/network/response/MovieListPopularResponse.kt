@@ -1,4 +1,4 @@
-package dev.andrericardo.core.data.network.response
+package dev.andrericardo.movieseriesbase.framework.network.response
 
 import com.google.gson.annotations.SerializedName
 
