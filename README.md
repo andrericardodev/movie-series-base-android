@@ -28,7 +28,9 @@ Este projeto adota três principais abordagens arquiteturais para garantir quali
 - **Coroutines** para operações assíncronas.
 - **Dagger Hilt** para injeção de dependências.
 - **OkHttp** para fornece um cliente HTTP com suporte para interceptores, cache e gestão de conexões.
+- **Paging** para carregar e paginar grandes conjuntos de dados.
 - **Glide** para carregamento e manipulação de imagens.
+- **Javax-inject** para suporte à injeção de dependência padrão.
 - **Detekt** para identificar e corrigir problemas de qualidade e consistência de código.
 - ...
 
@@ -47,9 +49,12 @@ movieseriesbase/
 ### Dependências
 - **Navegação:** Navigation do Android Jetpack, *versão 2.8.4* - https://developer.android.com/guide/navigation
 - **Injeção de Dependência:** Dagger Hilt, *versão 2.52* - https://developer.android.com/training/dependency-injection
+- **Anotações de injeção de dependência (Padrão):** Javax-inject, *versão 1* - https://mvnrepository.com/artifact/javax.inject/javax.inject
 - **Cliente de Rede:** Retrofit, *versão 2.11.0* - https://square.github.io/retrofit/
 - **Serialização de JSON:** Gson, *versão 2.11.0* - https://github.com/google/gson
 - **Cliente HTTP:** OkHttp, *versão 4.12.0* - https://square.github.io/okhttp/
+- **Paginação:** Paging3, *versão 3.3.4* - https://developer.android.com/topic/libraries/architecture/paging/v3-overview
+- **Operações Assíncronas:** Coroutines, *versão 1.9.0* - https://developer.android.com/kotlin/coroutines?hl=pt-br
 - **Carregamento de Imagens:** Glide, *versão 4.16.0* - https://github.com/bumptech/glide
 - **Análise Estática de Código** Detekt, *versão 1.23.7*. https://detekt.dev/docs/intro
 
