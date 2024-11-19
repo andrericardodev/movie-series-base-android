@@ -27,6 +27,9 @@ dependencies {
     api(libs.retrofit)
     api(libs.retrofit.converter.gson)
 
-    // Gson
     api(libs.gson)
+
+    implementation(libs.paging.common)
+    implementation(libs.javax.inject)
+    api(libs.coroutines.core)
 }

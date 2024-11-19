@@ -76,6 +76,12 @@ dependencies {
 
     implementation(libs.glide)
 
+    // Paging
+    implementation(libs.paging.runtime)
+
+    // Coroutines
+    implementation(libs.coroutines.android)
+
     // Tests
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
